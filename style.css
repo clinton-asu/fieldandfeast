@@ -248,7 +248,7 @@ main>section {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 28px;
 }
 
 #offerings>section {
