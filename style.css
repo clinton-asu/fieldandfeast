@@ -155,6 +155,192 @@ body {
     font-family: "Playfair Display", serif;
 }
 
+header {
+    padding: 30px 30px 20px;
+}
+
+main,
+footer {
+    padding: 30px 20px;
+}
+
+
+
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: var(--midnight-blue);
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 1.15em;
+    margin-bottom: 5px;
+}
+
+p {
+    line-height: 1.5;
+    padding: 5px 0;
+}
+
+header {
+    background: var(--midnight-blue);
+    color: var(--linen);
+    text-align: center;
+}
+
+header img {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: 500;
+}
+
+nav {
+    background-color: var(--champagne-gold);
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 15px;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--midnight-blue);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+main {
+    background-color: var(--soft-white);
+}
+
+main>section {
+    border-bottom: 3px solid var(--champagne-gold);
+    padding: 20px 0;
+    margin: 10px auto;
+}
+
+#offerings {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+#offerings>section {
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    padding: 15px;
+}
+
+#offerings>section h3 {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#offerings>section>ul {
+    list-style: disc;
+    padding-left: 1rem;
+    line-height: 1.5;
+}
+
+#offerings>section,
+#gallery figure {
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+
+#gallery>section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin: 15px auto;
+}
+
+#gallery figure {
+    overflow: hidden;
+}
+
+#gallery figure img {
+    width: 100%;
+}
+
+#gallery figure figcaption {
+    text-align: center;
+    margin: 5px auto;
+    font-size: 0.8em;
+    padding: 5px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+#gallery>a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#gallery h3,
+footer h3 {
+    display: none;
+}
+
+footer {
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+    padding: 30px;
+}
+
+footer>section:first-of-type {
+    margin: 40px auto 50px;
+}
+
+footer>section:first-of-type>address>a {
+    display: block;
+}
+
+footer>section:first-of-type>address>a:nth-of-type(2),
+footer>section:nth-of-type(2)>a {
+    color: var(--champagne-gold);
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--soft-white);
+    margin: 10px;
+}
+
+
 /* MEDIA QUERY (medium) */
 @media (min-width: 600px) {}
 
