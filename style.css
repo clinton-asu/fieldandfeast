@@ -372,7 +372,6 @@ footer a {
 
 /* MEDIA QUERY (xl) */
 @media (min-width: 1200px) {
-
     #gallery>section {
         grid-template-columns: repeat(5, 1fr);
     }
