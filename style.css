@@ -176,23 +176,17 @@ h1 {
 h2 {
     font-size: 2em;
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: var(--midnight-blue);
 }
 
 h3 {
     font-size: 1.5em;
-    margin-bottom: 5px;
-}
-
-h4 {
-    font-size: 1.15em;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 p {
     line-height: 1.5;
-    padding: 5px 0;
 }
 
 header {
@@ -248,7 +242,7 @@ main>section {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-    padding-bottom: 28px;
+    padding-bottom: 25px;
 }
 
 #offerings>section {
@@ -274,6 +268,10 @@ main>section {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
 }
 
+#gallery {
+    padding-bottom: 25px;
+}
+
 #gallery>section {
     display: grid;
     grid-template-columns: 1fr;
@@ -296,6 +294,7 @@ main>section {
     padding: 5px;
     font-style: italic;
     font-weight: 500;
+    line-height: 1.5;
 }
 
 #gallery>a {
@@ -305,9 +304,8 @@ main>section {
     font-weight: bold;
     background-color: var(--olive-green);
     color: var(--soft-white);
-    padding: 15px;
-    margin-bottom: 7px;
     border-radius: 5px;
+    padding: 15px;
 }
 
 #gallery h3,
